@@ -1,4 +1,4 @@
-package com.ca.bo;
+package com.mohsin.ca.bo;
 
 import java.time.LocalDate;
 

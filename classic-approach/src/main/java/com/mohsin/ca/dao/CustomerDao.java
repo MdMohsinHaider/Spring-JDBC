@@ -1,12 +1,11 @@
-package com.ca.dao;
+package com.mohsin.ca.dao;
 
-import com.ca.bo.CustomerBo;
+import com.mohsin.ca.bo.CustomerBo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCallback;
 import org.springframework.jdbc.core.PreparedStatementCreator;
-import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;

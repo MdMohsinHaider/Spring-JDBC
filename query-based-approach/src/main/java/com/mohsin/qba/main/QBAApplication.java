@@ -1,7 +1,7 @@
-package com.qba.main;
+package com.mohsin.qba.main;
 
-import com.qba.config.PersistenceConfig;
-import com.qba.dao.CustomerDao;
+import com.mohsin.qba.config.PersistenceConfig;
+import com.mohsin.qba.dao.CustomerDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -11,6 +11,7 @@ public class QBAApplication {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(PersistenceConfig.class);
         CustomerDao customerDao = context.getBean("customerDao", CustomerDao.class);
+
         /*long count = customerDao.count();
         System.out.println("count of customers: " + count);*/
 
@@ -24,7 +25,7 @@ public class QBAApplication {
         System.out.println("Saved Customer with id " + id);
 
         customerDao.findCustomersByName("sam").forEach(System.out::println);*/
-        CustomerDao.CustomerBo customerBo = customerDao.findCustomerOrdersById(101);
+        CustomerDao.CustomerBo customerBo = customerDao.findCustomerOrdersById(2);
         System.out.println(customerBo);
     }
 }

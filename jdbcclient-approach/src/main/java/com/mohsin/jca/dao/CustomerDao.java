@@ -1,4 +1,4 @@
-package com.jca.dao;
+package com.mohsin.jca.dao;
 
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;

@@ -1,7 +1,7 @@
-package com.jca.main;
+package com.mohsin.jca.main;
 
-import com.jca.config.PersistenceConfig;
-import com.jca.dao.CustomerDao;
+import com.mohsin.jca.config.PersistenceConfig;
+import com.mohsin.jca.dao.CustomerDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

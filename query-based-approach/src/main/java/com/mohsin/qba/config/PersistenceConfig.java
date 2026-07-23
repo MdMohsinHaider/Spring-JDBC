@@ -1,4 +1,4 @@
-package com.qba.config;
+package com.mohsin.qba.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @PropertySource("classpath:db.properties")
-@ComponentScan(basePackages = "com.qba.dao")
+@ComponentScan(basePackages = "com.mohsin.qba.dao")
 public class PersistenceConfig {
 
     @Bean

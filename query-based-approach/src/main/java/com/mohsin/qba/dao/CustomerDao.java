@@ -1,4 +1,4 @@
-package com.qba.dao;
+package com.mohsin.qba.dao;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;

@@ -1,4 +1,4 @@
-package com.ca.config;
+package com.mohsin.ca.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 
 @Configuration
 @PropertySource("classpath:db.properties")
-@ComponentScan(basePackages = "com.ca.dao")
+@ComponentScan(basePackages = "com.mohsin.ca.dao")
 public class PersistenceConfig {
 
     @Bean
